@@ -1,0 +1,73 @@
+
+using namespace std;
+int n=5, top=-1, 5 [5], ele;
+class stacktop
+{
+public: void push()
+{
+if (top>=n-1)
+{
+cout<<"stach is overflow: \n";
+}
+else
+{
+cout << "Enter the clements to";
+cin>>ele;
+top++;
+s[top]=ele
+}
+}
+public :void pop()
+{
+if (top==-1)
+{
+cout<<"\n stack is underflow:\n"
+}
+else 
+{
+cout<< "delete the elements:\n" <<s [top];
+top--;
+}
+}
+public:vord display()
+{
+if (top==-1)
+{
+cout<<" stack es underflow \n";
+}
+else
+{
+cout<<" stack is underflow to", elements are: \n";
+for (int i=top; i>=0;i--)
+{
+cout<<s[i];
+cout<<endl;
+}
+}
+}
+};
+int main()
+{
+int ch.y=1;
+stackop obj,
+while(y)
+{
+cout<<"\n basic stack operations are \n",
+cout<<" \n 1 PUSH";
+cout<< \n 2 pop";
+cout<<" \n 3 Display";
+cout<< "\n Enter your choice";
+cin>>ch;
+switch (ch)
+{
+Case1:obj.push();
+break;
+case2:obj.pop();
+break;
+case:3 obj.display();
+default:cout<< "Invalid choice.";
+}
+cout<<"do you want to continue press[0]exit or [1]yes\n";
+cin>>y;
+}
+}
